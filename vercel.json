@@ -1,10 +1,4 @@
 {
   "version": 2,
-  "framework": "nextjs",
-  "buildCommand": "cd frontend && npm run build",
-  "outputDirectory": "frontend/.next",
-  "installCommand": "cd frontend && npm install",
-  "env": {
-    "AI_SERVICE_URL": "https://your-railway-app.railway.app"
-  }
+  "framework": "nextjs"
 }

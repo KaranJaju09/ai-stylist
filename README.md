@@ -2,6 +2,28 @@
 
 A modern AI-powered wardrobe management system with intelligent outfit suggestions and color-accurate fashion item analysis.
 
+## 🚀 Live Deployment
+
+**✅ FULLY DEPLOYED AND READY TO USE!**
+
+### 🌐 Frontend (Vercel)
+**URL**: https://frontend-8zs411l6d-karan-jajus-projects.vercel.app
+- Serverless Next.js application
+- Global CDN for fast loading
+- Responsive design for all devices
+
+### 🤖 AI Service (Railway)  
+**URL**: https://strong-acceptance-production-ba37.up.railway.app
+- FastAPI backend with ML capabilities
+- Advanced color detection & analysis
+- Real-time outfit suggestions
+
+### 📦 GitHub Repository
+**URL**: https://github.com/KaranJaju09/ai-stylist
+- Complete source code
+- Deployment configurations
+- Documentation
+
 ## 🌟 Features
 
 - **Smart Color Detection**: Advanced AI analysis with 60+ color classifications

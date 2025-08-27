@@ -38,6 +38,17 @@ wardrobe_manager = WardrobeManager("./wardrobe")
 # Mount static files for serving images
 app.mount("/static", StaticFiles(directory="wardrobe"), name="static")
 
+# Root endpoint for health checks
+@app.get("/")
+async def root():
+    """Health check endpoint"""
+    return {
+        "status": "healthy",
+        "service": "AI Stylist Wardrobe API",
+        "version": "1.0.0",
+        "wardrobe_items": len(wardrobe_manager.items)
+    }
+
 # Pydantic models
 class ChatRequest(BaseModel):
     message: str

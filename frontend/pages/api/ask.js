@@ -1,4 +1,4 @@
-const axios = require('axios');
+import axios from 'axios';
 
 // AI Service URL
 const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://localhost:8001';

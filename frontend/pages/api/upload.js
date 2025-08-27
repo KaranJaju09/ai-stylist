@@ -1,17 +1,15 @@
-const multer = require('multer');
-const FormData = require('form-data');
-const axios = require('axios');
-
-// Configure multer for file uploads
-const upload = multer({ 
-  storage: multer.memoryStorage(),
-  limits: {
-    fileSize: 10 * 1024 * 1024, // 10MB limit
-  }
-});
+import axios from 'axios';
 
 // AI Service URL
 const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://localhost:8001';
+
+export const config = {
+  api: {
+    bodyParser: {
+      sizeLimit: '10mb',
+    },
+  },
+}
 
 export default async function handler(req, res) {
   // CORS headers
@@ -28,29 +26,11 @@ export default async function handler(req, res) {
   }
 
   try {
-    // Use multer with promise wrapper
-    await new Promise((resolve, reject) => {
-      upload.single('image')(req, res, (err) => {
-        if (err) reject(err);
-        else resolve();
-      });
-    });
-
-    if (!req.file) {
-      return res.status(400).json({ error: 'No image file provided' });
-    }
-
-    // Create form data to send to AI service
-    const formData = new FormData();
-    formData.append('file', req.file.buffer, {
-      filename: req.file.originalname,
-      contentType: req.file.mimetype,
-    });
-
-    // Send to AI service upload endpoint
-    const response = await axios.post(`${AI_SERVICE_URL}/upload`, formData, {
+    // For now, just proxy the request to the AI service
+    // In production, you might want to handle file upload differently
+    const response = await axios.post(`${AI_SERVICE_URL}/upload`, req.body, {
       headers: {
-        ...formData.getHeaders(),
+        'Content-Type': req.headers['content-type'],
       },
       timeout: 30000, // 30 second timeout
     });

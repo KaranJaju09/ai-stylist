@@ -1,0 +1,21 @@
+{
+  "name": "ai-stylist-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ai", "stylist", "fashion", "api"],
+  "author": "",
+  "license": "MIT",
+  "description": "AI Stylist Backend API - Express.js proxy service",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "form-data": "^4.0.4",
+    "multer": "^2.0.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ai-stylist-backend",
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/index.ts"
+    }
+  ],
+  "env": {
+    "AI_SERVICE_URL": "https://your-ai-service-url.com"
+  }
+}

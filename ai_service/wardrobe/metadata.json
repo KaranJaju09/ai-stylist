@@ -1,0 +1,260 @@
+{
+  "items": [
+    {
+      "id": "444179b2-4907-4c2b-89ee-68a2de4dfe0f",
+      "filename": "shoes4.jpg",
+      "category": "shoes",
+      "color": "black",
+      "path": "wardrobe/shoes4.jpg",
+      "description": "Black shoes"
+    },
+    {
+      "id": "ee4085fd-a5a9-4e2a-9e8a-8d7e54740fb2",
+      "filename": "tshirt7.jpg",
+      "category": "tshirt",
+      "color": "white",
+      "path": "wardrobe/tshirt7.jpg",
+      "description": "White tshirt"
+    },
+    {
+      "id": "74e52b93-6f1a-448d-bca7-5e0b4b0d7654",
+      "filename": "shoes3.jpg",
+      "category": "shoes",
+      "color": "gray",
+      "path": "wardrobe/shoes3.jpg",
+      "description": "Gray shoes"
+    },
+    {
+      "id": "69262241-3d70-4391-8b86-98fc8c1e9f58",
+      "filename": "trousers1.jpg",
+      "category": "trousers",
+      "color": "beige",
+      "path": "wardrobe/trousers1.jpg",
+      "description": "Beige trousers"
+    },
+    {
+      "id": "5d7e8c22-fb8f-4fc4-bb36-f17f32ca0cf4",
+      "filename": "suit3.jpg",
+      "category": "suit",
+      "color": "black",
+      "path": "wardrobe/suit3.jpg",
+      "description": "Black suit"
+    },
+    {
+      "id": "480e9a32-72ce-46a1-a2ff-17f824fda92b",
+      "filename": "suit2.jpg",
+      "category": "suit",
+      "color": "black",
+      "path": "wardrobe/suit2.jpg",
+      "description": "Black suit"
+    },
+    {
+      "id": "e0b7fa91-80d3-40d0-b563-551c63504580",
+      "filename": "suit5.jpg",
+      "category": "suit",
+      "color": "khaki",
+      "path": "wardrobe/suit5.jpg",
+      "description": "Khaki suit"
+    },
+    {
+      "id": "20f86399-fb05-4574-912d-b3be53cc2775",
+      "filename": "shirt.jpg",
+      "category": "shirt",
+      "color": "black",
+      "path": "wardrobe/shirt.jpg",
+      "description": "Black shirt"
+    },
+    {
+      "id": "dbb1a514-a37e-4f25-92de-c6477e4b7874",
+      "filename": "tshirt6.jpg",
+      "category": "tshirt",
+      "color": "light pink",
+      "path": "wardrobe/tshirt6.jpg",
+      "description": "Light Pink tshirt"
+    },
+    {
+      "id": "b1ca5a88-a19e-4e79-8d3b-e90cf9b4f7ce",
+      "filename": "shirt2.jpg",
+      "category": "shirt",
+      "color": "dark red",
+      "path": "wardrobe/shirt2.jpg",
+      "description": "Dark Red shirt"
+    },
+    {
+      "id": "87366442-056e-45d7-8baa-ba41b11a3c62",
+      "filename": "trousers2.jpg",
+      "category": "trousers",
+      "color": "white",
+      "path": "wardrobe/trousers2.jpg",
+      "description": "White trousers"
+    },
+    {
+      "id": "9257f0e3-42d8-4a9f-a1b9-85c27bd7d3d7",
+      "filename": "suit1.jpg",
+      "category": "suit",
+      "color": "red-orange",
+      "path": "wardrobe/suit1.jpg",
+      "description": "Red-Orange suit"
+    },
+    {
+      "id": "9d235b92-3c7d-478c-80ab-42c54b0587ec",
+      "filename": "jeans3.jpg",
+      "category": "jeans",
+      "color": "white",
+      "path": "wardrobe/jeans3.jpg",
+      "description": "White jeans"
+    },
+    {
+      "id": "ba300185-06f8-4c25-aee2-001882e8aca8",
+      "filename": "a062aec0-5d2a-4d07-bb4f-c2d9c1854244.jpg",
+      "category": "unknown",
+      "color": "black",
+      "path": "wardrobe/a062aec0-5d2a-4d07-bb4f-c2d9c1854244.jpg",
+      "description": "Black unknown"
+    },
+    {
+      "id": "604304a9-b948-4cc5-a2ec-f7d2c5b28566",
+      "filename": "suit.jpg",
+      "category": "suit",
+      "color": "red-orange",
+      "path": "wardrobe/suit.jpg",
+      "description": "Red-Orange suit"
+    },
+    {
+      "id": "03871155-ebde-4e5b-836b-0f6e39d5ebed",
+      "filename": "suit6.jpg",
+      "category": "suit",
+      "color": "dark gray",
+      "path": "wardrobe/suit6.jpg",
+      "description": "Dark Gray suit"
+    },
+    {
+      "id": "ebe1160c-8775-4d99-a26c-36b417282d62",
+      "filename": "shoes1.jpg",
+      "category": "shoes",
+      "color": "white",
+      "path": "wardrobe/shoes1.jpg",
+      "description": "White shoes"
+    },
+    {
+      "id": "d3746f3e-99cd-4413-b006-691432641120",
+      "filename": "jeans.jpg",
+      "category": "jeans",
+      "color": "powder blue",
+      "path": "wardrobe/jeans.jpg",
+      "description": "Powder Blue jeans"
+    },
+    {
+      "id": "cc89f94e-c2c2-4205-bed7-16b40e340937",
+      "filename": "tshirt5.jpg",
+      "category": "tshirt",
+      "color": "light gray",
+      "path": "wardrobe/tshirt5.jpg",
+      "description": "Light Gray tshirt"
+    },
+    {
+      "id": "8f451067-1bf3-405c-872c-cc2be42952aa",
+      "filename": "shirt3.jpg",
+      "category": "shirt",
+      "color": "white",
+      "path": "wardrobe/shirt3.jpg",
+      "description": "White shirt"
+    },
+    {
+      "id": "f5872bc2-8c0a-431b-b3f4-e1752cd60fc0",
+      "filename": "jeans1.jpg",
+      "category": "jeans",
+      "color": "white",
+      "path": "wardrobe/jeans1.jpg",
+      "description": "White jeans"
+    },
+    {
+      "id": "8bbecd2e-5817-4f52-b731-e689e93d730f",
+      "filename": "jeans2.jpg",
+      "category": "jeans",
+      "color": "lavender",
+      "path": "wardrobe/jeans2.jpg",
+      "description": "Lavender jeans"
+    },
+    {
+      "id": "c453e47f-9ef0-4aa1-a208-7bd00c2ac377",
+      "filename": "tshirt2.jpg",
+      "category": "tshirt",
+      "color": "navy blue",
+      "path": "wardrobe/tshirt2.jpg",
+      "description": "Navy Blue tshirt"
+    },
+    {
+      "id": "2927b6a6-948a-49ba-a3d4-429cafa11664",
+      "filename": "tshirt4.jpg",
+      "category": "tshirt",
+      "color": "white",
+      "path": "wardrobe/tshirt4.jpg",
+      "description": "White tshirt"
+    },
+    {
+      "id": "1d5df976-07d4-4c4f-91a1-fd3647dd0f38",
+      "filename": "tshirt3.jpg",
+      "category": "tshirt",
+      "color": "black",
+      "path": "wardrobe/tshirt3.jpg",
+      "description": "Black tshirt"
+    },
+    {
+      "id": "b28a593b-ab03-48f8-980e-0436065ebaa2",
+      "filename": "09bd5755-1cf4-4745-8095-ac3f8d0643d0.jpg",
+      "category": "unknown",
+      "color": "bright red",
+      "path": "wardrobe/09bd5755-1cf4-4745-8095-ac3f8d0643d0.jpg",
+      "description": "Bright Red unknown"
+    },
+    {
+      "id": "50e2a039-62f8-4df9-9b01-13bc0af8bda3",
+      "filename": "shoes.jpg",
+      "category": "shoes",
+      "color": "dark red",
+      "path": "wardrobe/shoes.jpg",
+      "description": "Dark Red shoes"
+    },
+    {
+      "id": "095f44f8-396f-4f9b-af0d-fbb4e3880218",
+      "filename": "tshirt.jpg",
+      "category": "tshirt",
+      "color": "navy blue",
+      "path": "wardrobe/tshirt.jpg",
+      "description": "Navy Blue tshirt"
+    },
+    {
+      "id": "b959af3a-8ae2-4798-8620-df3c5ac44ffa",
+      "filename": "shirt1.jpg",
+      "category": "shirt",
+      "color": "dark red",
+      "path": "wardrobe/shirt1.jpg",
+      "description": "Dark Red shirt"
+    },
+    {
+      "id": "1cfd1e35-fdf7-4452-a8c9-a69aba41ee32",
+      "filename": "shoes2.jpg",
+      "category": "shoes",
+      "color": "black",
+      "path": "wardrobe/shoes2.jpg",
+      "description": "Black shoes"
+    },
+    {
+      "id": "20578fd5-7a02-4184-bdec-001410b4ffab",
+      "filename": "suit4.jpg",
+      "category": "suit",
+      "color": "black",
+      "path": "wardrobe/suit4.jpg",
+      "description": "Black suit"
+    },
+    {
+      "id": "dcabd61d-0b86-4db4-af17-4997a288cc77",
+      "filename": "trousers.jpg",
+      "category": "trousers",
+      "color": "light gray",
+      "path": "wardrobe/trousers.jpg",
+      "description": "Light Gray trousers"
+    }
+  ]
+}

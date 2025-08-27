@@ -7,7 +7,7 @@ A modern AI-powered wardrobe management system with intelligent outfit suggestio
 **✅ FULLY DEPLOYED AND READY TO USE!**
 
 ### 🌐 Frontend (Vercel)
-**URL**: https://frontend-8zs411l6d-karan-jajus-projects.vercel.app
+**URL**: https://frontend-n9ve3d8am-karan-jajus-projects.vercel.app
 - Serverless Next.js application
 - Global CDN for fast loading
 - Responsive design for all devices
@@ -23,6 +23,14 @@ A modern AI-powered wardrobe management system with intelligent outfit suggestio
 - Complete source code
 - Deployment configurations
 - Documentation
+
+### 📐 Architecture Documentation
+**Design Document**: [DESIGN.md](./DESIGN.md)
+- Detailed system architecture
+- Component specifications  
+- Data flow diagrams
+- ML pipeline details
+- Performance considerations
 
 ## 🌟 Features
 
@@ -57,8 +65,8 @@ A modern AI-powered wardrobe management system with intelligent outfit suggestio
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd ai_stylist
+git clone https://github.com/KaranJaju09/ai-stylist.git
+cd ai-stylist
 ```
 
 2. **Set up Python environment**
@@ -112,20 +120,13 @@ npm run dev
 
 This project is optimized for **Vercel** deployment with serverless functions:
 
-1. **Deploy AI Service First**: Deploy the FastAPI service to Railway, Heroku, or DigitalOcean
+1. **Deploy AI Service First**: Deploy the FastAPI service to Railway
 2. **Deploy Frontend to Vercel**: The frontend includes serverless API routes that proxy to your AI service
-3. **See Detailed Guide**: Check `DEPLOYMENT.md` for complete step-by-step instructions
-
-### Why Vercel?
-- **Serverless Functions**: No need for Docker containers
-- **Edge Network**: Global CDN for fast loading
-- **Automatic Scaling**: Handles traffic spikes automatically
-- **Zero Configuration**: Deploy with a single command
 
 ### Architecture After Deployment
 - **Frontend**: Vercel Edge Network
 - **API Routes**: Vercel Serverless Functions (proxy layer)
-- **AI Service**: External cloud deployment (Railway/Heroku/DO)
+- **AI Service**: Railway cloud deployment
 
 ## 📁 Project Structure
 
@@ -205,19 +206,3 @@ The AI stylist understands:
 - AI service logs: Check terminal running `python chatbot.py`
 - Backend logs: Check terminal running `npm start`
 - Frontend logs: Check browser console and terminal
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-## 📞 Support
-
-For issues and questions, please open an issue in the repository.

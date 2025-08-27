@@ -1,0 +1,41 @@
+<svg width="200" height="500" viewBox="0 0 200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mannequin silhouette -->
+  <g id="mannequin">
+    <!-- Head -->
+    <ellipse cx="100" cy="50" rx="25" ry="30" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="2"/>
+    
+    <!-- Neck -->
+    <rect x="90" y="75" width="20" height="15" fill="#E5E7EB"/>
+    
+    <!-- Torso -->
+    <path d="M70 90 L130 90 L135 200 L65 200 Z" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="2"/>
+    
+    <!-- Arms -->
+    <ellipse cx="50" cy="130" rx="12" ry="45" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1"/>
+    <ellipse cx="150" cy="130" rx="12" ry="45" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1"/>
+    
+    <!-- Waist -->
+    <rect x="75" y="200" width="50" height="20" fill="#F3F4F6"/>
+    
+    <!-- Hips/Pelvis -->
+    <path d="M65 220 L135 220 L140 280 L60 280 Z" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="2"/>
+    
+    <!-- Legs -->
+    <rect x="75" y="280" width="18" height="180" rx="9" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1"/>
+    <rect x="107" y="280" width="18" height="180" rx="9" fill="#E5E7EB" stroke="#D1D5DB" stroke-width="1"/>
+    
+    <!-- Feet -->
+    <ellipse cx="84" cy="475" rx="15" ry="8" fill="#D1D5DB"/>
+    <ellipse cx="116" cy="475" rx="15" ry="8" fill="#D1D5DB"/>
+  </g>
+  
+  <!-- Overlay zones for clothing -->
+  <!-- Top overlay zone -->
+  <rect id="top-zone" x="70" y="90" width="60" height="110" fill="transparent" stroke="transparent"/>
+  
+  <!-- Bottom overlay zone -->
+  <rect id="bottom-zone" x="65" y="220" width="70" height="140" fill="transparent" stroke="transparent"/>
+  
+  <!-- Shoes overlay zone -->
+  <rect id="shoes-zone" x="69" y="460" width="62" height="25" fill="transparent" stroke="transparent"/>
+</svg>

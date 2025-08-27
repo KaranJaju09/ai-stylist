@@ -41,12 +41,12 @@ app.mount("/static", StaticFiles(directory="wardrobe"), name="static")
 # Root endpoint for health checks
 @app.get("/")
 async def root():
-    """Health check endpoint"""
+    """Root endpoint for Railway healthcheck"""
     return {
         "status": "healthy",
         "service": "AI Stylist Wardrobe API",
         "version": "1.0.0",
-        "wardrobe_items": len(wardrobe_manager.items)
+        "wardrobe_items": len(wardrobe_manager.get_all_items())
     }
 
 # Pydantic models

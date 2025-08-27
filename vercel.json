@@ -1,32 +1,21 @@
 {
   "version": 2,
   "name": "ai-stylist",
-  "builds": [
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/next"
-    },
-    {
-      "src": "backend/index.js",
-      "use": "@vercel/node"
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/.next",
+  "framework": "nextjs",
+  "functions": {
+    "frontend/api/*.js": {
+      "maxDuration": 30
     }
-  ],
-  "routes": [
+  },
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "/backend/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/frontend/$1"
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
     }
   ],
   "env": {
-    "AI_SERVICE_URL": "https://your-ai-service-deployment.herokuapp.com"
-  },
-  "functions": {
-    "backend/index.js": {
-      "maxDuration": 30
-    }
+    "AI_SERVICE_URL": "https://your-railway-app.railway.app"
   }
 }
